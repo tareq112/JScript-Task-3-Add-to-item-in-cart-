@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+  }
+
+  .container{
+      background: black;
+      display: flex;
+      height: 80vh;
+      
+  }
+ .products-container{
+      background: cadetblue;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  .cartContainer{
+      background: cyan;
+      border: 3px solid yellow;
+      min-width: 250px;
+  }
+
+  .search{
+      width: 100%;
+      height: 30px;
+      border: 1px solid red;
+  }
+
+.product{
+    border: 1px solid red;
+}
+.pimg{
+    width: 150px;
+    height: 150px;
+}
+/*----Aside----*/
+.addedProductsImg{
+    height: 50px;
+    width: 50px;
+}
+.item{
+    border: 1px solid red;
+}
+.cartHead{
+    border: 1px solid red;
+}
+.chead{
+    border: 1px solid red;
+}
