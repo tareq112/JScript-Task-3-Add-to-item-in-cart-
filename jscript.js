@@ -61,16 +61,22 @@ function cartItems() {
 
 }
 
-//Delete item from a cart
+function updatecart(){
+  cartItems() ;
+}
+
+          //Delete item from a cart
 function removeItem(id){
 
  cart = cart.filter( item => item.id != id);
  console.log(cart);
+ updatecart();
 
 }
 
 
-// calculate price
+         // calculate price
+
 function calculatePrice(){
   let price = 0, items = 0;
   cart.forEach(item => {
@@ -86,9 +92,7 @@ function calculatePrice(){
    let b = xtotal - 10; 
   console.log(x);
   console.log(xtotal);
-  
-  
-  subTotal.innerHTML =  x;
+  subTotal.innerHTML =  x.toFixed(2);
   taxP.innerHTML =  '+' + a.toFixed(2);
   total.innerHTML =  b.toFixed(2);
   

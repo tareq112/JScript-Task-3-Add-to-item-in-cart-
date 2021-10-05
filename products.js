@@ -45,7 +45,7 @@ const products = [
       id: 7,
       name: "T-shirt 1",
       price: 29.99,
-      imgSrc: "./img/t2.png"
+      imgSrc: "./img/t4.png"
     },
     {
       id: 8,
@@ -57,18 +57,18 @@ const products = [
       id: 9,
       name: "T-shirt 1",
       price: 29.99,
-      imgSrc: "./img/t4.png"
+      imgSrc: "./img/t3.png"
     },
     {
       id: 10,
       name: "T-shirt 1",
       price: 29.99,
-      imgSrc: "./img/t5.png"
+      imgSrc: "./img/t4.png"
     },
     {
       id: 11,
       name: "T-shirt 1",
       price: 29.99,
-      imgSrc: "./img/t6.png"
+      imgSrc: "./img/t5.png"
     },
   ];

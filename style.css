@@ -71,7 +71,6 @@ img {
 
   .cartContainer{
       background: cyan;
-      
       width: 25%;
   }
 
@@ -79,15 +78,18 @@ img {
 /*--Footer---*/
 .foot{
     width: 75%;
-    
     padding: 3px;
+}
+.fbtn{
+    align-items: right;
 }
 
 /*----Aside----*/
 .cartContainer{
     display: flex;
     flex-direction: column;
-    background: rgb(235, 219, 219);
+    background: whitesmoke;
+    box-shadow: 3px 3px 3px 3px black;
 }
 .cartHead{
     padding: 1px;
@@ -100,7 +102,7 @@ img {
 .cartDetails{
     display: flex;
     flex-direction: column;
-    height: 76vh;
+    height:70vh ;
 }
 .item{
      border: 1px solid silver;
@@ -131,9 +133,9 @@ img {
     align-self: flex-end;
 }
 .payButton{
-    width: 250px;
+    width: 100%;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
     background: rgb(117, 162, 245);
     color: whitesmoke;
 }
