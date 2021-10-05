@@ -11,98 +11,58 @@
 </head>
 
 <body>
-   
-    <div class="container">
-           
-     <div class="products-container">
-        <div class="search"><input type="text" placeholder="Search products...">
-        </div>
-            <div class="product">
-                <img src="./img/t1.png" alt="t-shirt 1" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t2.png" alt="t-shirt 2" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t3.png" alt="t-shirt 2" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t4.png" alt="t-shirt 3" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t4.png" alt="t-shirt 3" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t4.png" alt="t-shirt 3" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t4.png" alt="t-shirt 3" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t4.png" alt="t-shirt 3" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
-            </div>
-            <div class="product">
-                <img src="./img/t4.png" alt="t-shirt 3" class="pimg">
-                <p class="productName">Name</p>
-                <p class="productPrice">Price</p>
+     <div class="container">
+        <div class="products-container">
+            <div class="search">
+                <input type="text" class="productSearch" placeholder="Search products...">
             </div>
         </div>
 
-     <div class="cartContainer">
+        <div class="cartContainer">
             <div class="cartHead">
-                <p class="chead">
-                    <i class="fas fa-user"></i>
-                    Add By Customer
-                </p>
+                <p class="chead"><i class="fas fa-user"></i>Add Customer</p>
             </div>
+            <!--cart  item display  -->
             <div class="cartDetails">
-                <div class="item">
-                    <img src="img/t1.png" alt="" class="addedProductsImg">
-                    <p class="cartProductName">name 
-                        <i class="fa fa-trash" aria-hidden="true"></i>
-                    </p>
-                    
+               
+            </div>
+            <div class="pay">
+                <div class="payitem">
+                    <div><p>DisCount</p></div>
+                    <div><p>BDT</p></div>
+                    <div><p>-10.00</p></div>
                 </div>
-                <div class="item">
-                    <img src="img/t2.png" alt="" class="addedProductsImg">
-                    <p class="cartProductName">name 
-                        <i class="fa fa-trash" aria-hidden="true"></i>
-                    </p>
-                    
+                <div class="payitem">
+                    <div><p>SubTotal </p></div>
+                    <div><p>BDT</p></div>
+                    <div><p class="subTotal">00.00</p></div>
                 </div>
-                <div class="item">
-                    <img src="img/t3.png" alt="" class="addedProductsImg">
-                    <p class="cartProductName">name 
-                        <i class="fa fa-trash" aria-hidden="true"></i>
-                    </p>
-                    
+                <div class="payitem">
+                    <div><p >Tax(5%)</p></div>
+                    <div><p>BDT</p></div>
+                    <div><p class="tax">00.00</p></div>
                 </div>
-                <div class="pay">
-                    <p>DisCount BDT00</p>
-                    <p>SubTotal  BDT00 </p>
-                    <p>Tax(0%) BDT0</p>
-                    <p>Total BDT6200</p>
-                    <button>Pay BDT00</button>
+                <div class="payitem">
+                    <div><p>Total</p></div>
+                    <div><p>BDT</p></div>
+                    <div><p class="total">00.00</p></div>
+                </div>
+                <div class="payitem">
+                    <button class="payButton">Pay </button>
                 </div>
             </div>
+
         </div>
     </div>
+
+    </div>
+    <div class="foot">
+        <p>Dhanmondi | Register | New sale
+            <button>Options</button>
+            <button>new Sale</button>
+        </p>
+    </div>
+    <script src="products.js"></script>
     <script src="jscript.js"></script>
 </body>
 
